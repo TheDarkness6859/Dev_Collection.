@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> <!-- todo lo que no se ve en la pagina -->
+    <meta charset="UTF-8"> <!-- permite usar caracteres especiales -->
+    <title>Actividades Extracurriculares - Ciudad del Conocimiento</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- enlaza el archivo css -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- importa la fuente desde google fonts -->
+    <link rel="icon" href="imagenes/icono.png"> <!-- agrega el icono de la pestaña -->
+
+</head>
+
+<body> <!-- Lo que es visible en la página -->
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Actividades Extracurriculares</h1> <!-- titulo mas grande -->
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav> <!-- define barra de navegacion -->
+        <a href="../index.html">Inicio</a> | <!-- traslada de sitio a sitio -->
+        <a href="../cursos.html">Cursos</a> |
+        <a href="../Profesores/profesores.html">Profesores</a> |
+        <a href="actividades.html">Actividades</a> |
+        <a href="../HTML P5/biblioteca.html">Biblioteca</a> |
+        <a href="../HTML P5/contacto.html">Contacto</a>
+    </nav>
+
+    <hr> <!-- linea que separa -->
+
+    <!-- LISTA DE ACTIVIDADES -->
+
+    <section id="lista"> <!-- Crea una seccion llamada lista -->
+        <h2>Lista de Actividades Disponibles</h2> <!-- Sub titulo -->
+        <ul> <!-- Lista desordenada -->
+            <li>Club de Robótica</li> <!-- cada elemento de la lista -->
+            <li>Fotografía Digital</li>
+            <li>Teatro y Expresión Corporal</li>
+            <li>Lectura y Escritura Creativa</li>
+            <li>Fútbol y Deportes Mixtos</li>
+        </ul>
+    </section>
+
+    <hr> <!-- linea que separa -->
+
+    <!-- TABLA DE CRONOGRAMA -->
+    <section id="cronograma">
+        <h2>Cronograma Semanal</h2>
+
+        <table border="1"> <!-- crea una tabla con borde simple-->
+            <tr> <!-- Fila de la tabla "encabezado" -->
+                <th>Día</th> <!-- Encabezado de la columna -->
+                <th>Hora</th>
+                <th>Actividad</th>
+            </tr>
+            <tr> <!-- Fila de la tabla "1" -->
+                <td>Lunes</td> <!-- crea una celda en la tabla -->
+                <td>3:00 - 5:00 pm</td> <!-- Se va creando a un lado -->
+                <td>Club de Robótica</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>2:00 - 4:00 pm</td>
+                <td>Fotografía Digital</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>4:00 - 6:00 pm</td>
+                <td>Teatro</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>3:00 - 5:00 pm</td>
+                <td>Lectura Creativa</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>2:00 - 4:00 pm</td>
+                <td>Fútbol</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- LISTAS ANIDADAS -->
+    <section id="materiales">
+        <h2>Materiales Necesarios</h2>
+
+        <ul> <!-- Lista -->
+            <li>Club de Robótica <!-- Elemento de una lista -->
+                <ul> <!-- Lista dentro de otra lista -->
+                    <li>Kit Arduino</li> <!-- elemento dentro de esta lista -->
+                    <li>Cables y sensores</li>
+                    <li>Cuaderno de apuntes</li>
+                </ul>
+            </li>
+
+            <li>Fotografía Digital
+                <ul>
+                    <li>Cámara o celular</li>
+                    <li>Memoria SD</li>
+                    <li>Cuaderno</li>
+                </ul>
+            </li>
+
+            <li>Teatro
+                <ul>
+                    <li>Ropa cómoda</li>
+                    <li>Botella de agua</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- GALERÍA -->
+    <section id="galeria">
+        <h2>Galería de Actividades</h2>
+
+        <figure> <!-- es para que se sepa que la imagen y su titulo van juntos -->
+            <figcaption>Robótica</figcaption><!-- para que la letra aparezca en azul -->
+            <img src="imagenes/imagen_1.jpg" width="200" height="150">
+        </figure>
+
+        <figure>
+            <figcaption>Fotografía</figcaption>
+            <img src="imagenes/imagen_2.jpg" width="200" height="150">
+        </figure>
+
+        <figure>
+            <figcaption>Teatro</figcaption>
+            <img src="imagenes/imagen_3.webp" width="200" height="150">
+        </figure>
+
+        <figure>
+            <figcaption>Deportes</figcaption>
+            <img src="imagenes/imagen_4.jpg" width="200" height="150">
+        </figure>
+
+    </section>
+
+    <hr>
+
+    <!-- ENLACES EXTERNOS -->
+    <section id="recursos">
+        <h2>Recursos Externos</h2>
+
+        <ul>
+            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+            <li><a href="https://code.org" target="_blank">Code.org</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Rob%C3%B3tica" target="_blank">Robótica (Wikipedia)</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- PIE DE PÁGINA -->
+    <footer> <!-- Define pie de pagina -->
+        <p>Proyecto Académico - Ciudad del Conocimiento</p> <!-- Texto dentro del footer -->
+        <a href="#top">Volver arriba</a> <!-- enlace que lleva al inicio de la pagina -->
+    </footer>
+
+</body>
+
+</html>
